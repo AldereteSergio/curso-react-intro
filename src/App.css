@@ -5,3 +5,11 @@
   flex-direction: column;
   place-items: center;
 }
+
+body {
+  background-image: url("./assets/background image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+}

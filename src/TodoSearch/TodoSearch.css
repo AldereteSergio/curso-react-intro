@@ -1,0 +1,42 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --very-light-pink: #c7c7c7;
+  --text-input-field: #f7f7f7;
+  --hospital-green: #acd9b2;
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+}
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+.searchbar {
+  display: flex;
+  flex-direction: row;
+  height: 2rem;
+  align-items: center;
+  width: 360px;
+  position: relative;
+}
+
+.searchbar input {
+  border-radius: 8px;
+  border: 0px;
+  width: 100%;
+  height: 100%;
+  padding-left: 14px;
+}
+
+.searchIcon {
+  position: absolute;
+  right: -2em;
+  top: -0.75em;
+}
+
+.searchIcon img {
+  height: 1.5em;
+  width: 1.5em;
+}
